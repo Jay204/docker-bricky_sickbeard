@@ -10,4 +10,4 @@ RUN git clone https://github.com/bricky/Sick-Beard.git /opt/sickbeard
 
 WORKDIR /opt/sickbeard
 EXPOSE 8081
-ENTRYPOINT python SickBeard.py
+ENTRYPOINT ["python", "SickBeard.py"]
